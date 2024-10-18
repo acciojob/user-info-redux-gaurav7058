@@ -30,8 +30,8 @@ export default function Action() {
                 /><br />
             </div>
 
-            <div className="">
-                <p> Current value in store:</p>
+            <div className="ouput">
+                <h1>User Information</h1>
                 <p>Name: {currentName}</p> {/* Directly display currentName */}
                 <p>Email: {currentEmail}</p> {/* Directly display currentEmail */}
             </div>
