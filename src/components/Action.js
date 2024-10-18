@@ -30,10 +30,14 @@ export default function Action() {
                 /><br />
             </div>
 
-            <div className="output"> {/* Fixed class name here */}
+            <div> {/* Fixed class name here */}
                 <h1>User Information</h1>
-                <p>Name: {currentName}</p> {/* Directly display currentName */}
-                <p>Email: {currentEmail}</p> {/* Directly display currentEmail */}
+                <div className="output">
+                Name- {currentName}
+                </div> {/* Directly display currentName */}
+                <div className="output">
+                Email- {currentEmail}
+                </div>
             </div>
         </div>
     );
