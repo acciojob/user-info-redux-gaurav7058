@@ -11,7 +11,7 @@ export default function Action() {
 
     return (
         <div>
-            <div className="">
+            <div>
                 <label htmlFor="name">Name:</label>
                 <input
                     type="text"
@@ -30,7 +30,7 @@ export default function Action() {
                 /><br />
             </div>
 
-            <div className="ouput">
+            <div className="output"> {/* Fixed class name here */}
                 <h1>User Information</h1>
                 <p>Name: {currentName}</p> {/* Directly display currentName */}
                 <p>Email: {currentEmail}</p> {/* Directly display currentEmail */}
