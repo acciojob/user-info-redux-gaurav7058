@@ -33,8 +33,8 @@ export default function Action() {
             <div> {/* Fixed class name here */}
                 <h1>User Information</h1>
                 <div className="output">
-                    Name- {currentName}
-                    Email- {currentEmail}
+                    <p>Name- {currentName}</p>
+                    <p>Email- {currentEmail}</p>
                 </div> {/* Directly display currentName */}
             </div>
         </div>
